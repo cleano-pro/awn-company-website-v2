@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (backToTop) {
       backToTop.classList.toggle(
-        'show',
+        'visible',
         scrollTop > 350
       );
 
